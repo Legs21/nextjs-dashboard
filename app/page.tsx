@@ -82,12 +82,12 @@ export default function Page() {
         </div>
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
           {/* Add Hero Images Here */}
-        <Image
+        /* <Image 
         src="/mayflower_gulch.jpg"
         width={1000}
         height={760}
         alt="Mayflower Gulch 2024"
-        />
+        /> */
         </div>
       </div>
     </main>
