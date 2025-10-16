@@ -70,46 +70,46 @@ export default function Page() {
       </div>
       
       <div className="flex flex-col mt-4 bg-cover bg-no-repeat bg-center bg-clip-border p-5 bg-[url(/mayflower_gulch.jpg)] gap-4 md:flex-col">
-        <div className="float-left gap-4 rounded-lg bg-gray-200/150 px-6 py-10 md:w-3/5 md:px-20">
+        <div className="float-left gap-4 rounded-lg bg-gray-100/80 px-6 py-10 md:w-3/5 md:px-20">
             <p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
               <strong>Welcome to my website.</strong> Here I will document and catalog my backcountry ski and snowboard trips.
             </p>
             <Link
               href="/dashboard/aboutme"
-              className="flex items-center max-w-96 gap-5 self-start rounded-lg bg-[#2F5D50] px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
+              className="flex items-center w-fit gap-5 self-start rounded-lg bg-[#2F5D50] px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
             >
               <span>About me!</span>
             </Link>
         </div>
-        <div className="place-self-end gap-4 rounded-lg bg-gray-100/90 px-6 py-10 md:w-3/5 md:px-20">
+        <div className="place-self-end gap-4 rounded-lg bg-gray-100/80 px-6 py-10 md:w-3/5 md:px-20">
             <p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
               <strong>Map!</strong>
             </p>
             <Link
               href="/dashboard/map"
-              className="flex items-center gap-5 w-2/5 self-start rounded-lg bg-[#2F5D50] px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
+              className="flex items-center gap-5 w-fit self-start rounded-lg bg-[#2F5D50] px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
             >
               <span>Check out the map!</span>
             </Link>
         </div>
-        <div className="place-self-start gap-4 rounded-lg bg-gray-100/75 px-6 py-10 md:w-3/5 md:px-20">
+        <div className="place-self-start gap-4 rounded-lg bg-gray-100/80 px-6 py-10 md:w-3/5 md:px-20">
             <p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
               <strong>Here is where I blog my trips.</strong>
             </p>
             <Link
               href="/dashboard/trips"
-              className="flex items-center gap-5 w-1/5 self-start rounded-lg bg-[#2F5D50] px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
+              className="flex items-center gap-5 w-fit self-start rounded-lg bg-[#2F5D50] px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
             >
               <span>Trips!</span>
             </Link>
         </div>
-        <div className="place-self-end gap-4 rounded-lg bg-gray-100/50 px-6 py-10 md:w-3/5 md:px-20">
+        <div className="place-self-end gap-4 rounded-lg bg-gray-100/80 px-6 py-10 md:w-3/5 md:px-20">
             <p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
               <strong>Gear!</strong>
             </p>
             <Link
               href="/dashboard"
-              className="flex items-center gap-5 self-start rounded-lg bg-[#2F5D50] px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
+              className="flex items-center w-fit gap-5 self-start rounded-lg bg-[#2F5D50] px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
             >
               <span>Main Dashboard</span>
             </Link>
