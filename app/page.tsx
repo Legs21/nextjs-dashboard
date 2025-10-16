@@ -81,7 +81,18 @@ export default function Page() {
               <span>About me</span> <ArrowRightIcon className="w-5 md:w-6" />
             </Link>
         </div>
-        <div className="bg-black h-40 mt-4 gap-4 place-self-emd max-w-2/3">
+        <div className="place-self-end gap-4 rounded-lg bg-gray-50 px-6 py-10 md:w-2/5 md:px-20">
+            <p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
+              <strong>Welcome to my website.</strong> Here I will document and catalog my backcountry ski and snowboard trips.
+            </p>
+            <Link
+              href="/dashboard/aboutme"
+              className="flex items-center gap-5 self-start rounded-lg bg-[#2F5D50] px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
+            >
+              <span>About me</span> <ArrowRightIcon className="w-5 md:w-6" />
+            </Link>
+        </div>
+        <div className="bg-black h-40 mt-4 gap-4 place-self-end max-w-2/3">
           <p className="text-xl text-white float-right p-4">Test words and extra stuff 1</p>
         </div>
         <div className="bg-black h-40 mt-4 gap-4 place-self-start max-w-180">
