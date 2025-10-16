@@ -82,7 +82,13 @@ export default function Page() {
             </Link>
         </div>
         <div className="bg-black h-40 mt-4 gap-4 col-start-3 col-end-5">
-          <p className="text-xl text-white">Test words and extra stuff</p>
+          <p className="text-xl text-white float-right p-4">Test words and extra stuff</p>
+        </div>
+        <div className="bg-black h-40 mt-4 gap-4 col-start-1 col-end-3">
+          <p className="text-xl text-white float-right p-4">Test words and extra stuff</p>
+        </div>
+        <div className="bg-black h-40 mt-4 gap-4 col-start-3 col-end-5">
+          <p className="text-xl text-white float-right p-4">Test words and extra stuff</p>
         </div>
       </div>
     </main>
