@@ -67,7 +67,7 @@ export default function Page() {
         {<AcmeLogo />}
         </div>
       </div>
-      <div className="mt-4 flex grow flex-col gap-4 md:flex-row">
+      <div className="mt-4 flex grow bg-[url(/mayflower_gulch.jpg)] flex-col gap-4 md:flex-row">
         <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-50 px-6 py-10 md:w-2/5 md:px-20">
         <div className="relative w-0 h-0 border-l-[15px] border-r-[15px] border-b-[26px] border-l-transparent border-r-transparent border-b-black"/>
           <p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
@@ -86,8 +86,7 @@ export default function Page() {
         src="/mayflower_gulch.jpg"
         width={1000}
         height={760}
-        className="hidden md:block"
-        alt="Screenshots of the dashboard project showing desktop version"
+        alt="Mayflower Gulch 2024"
         />
         </div>
       </div>
