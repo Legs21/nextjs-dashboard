@@ -81,7 +81,7 @@ export default function Page() {
             </Link>
         </div>
         <div className="flex-col float right">
-          <div className="">
+          <div className="grid-cols-3">
             <div className="mb-2 h-2 rounded-full bg-stone-200"></div>
             <div className="mb-2 h-2 rounded-full bg-stone-200"></div>
             <div className="mb-2 h-2 rounded-full bg-stone-200"></div>
