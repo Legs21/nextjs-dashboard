@@ -81,14 +81,14 @@ export default function Page() {
               <span>About me</span> <ArrowRightIcon className="w-5 md:w-6" />
             </Link>
         </div>
-        <div className="bg-black h-40 mt-4 gap-4 float-right w-3/5">
-          <p className="text-xl text-white float-right p-4">Test words and extra stuff</p>
+        <div className="bg-black h-40 mt-4 gap-4 float-right max-w-64">
+          <p className="text-xl text-white float-right p-4">Test words and extra stuff 1</p>
         </div>
-        <div className="bg-black h-40 mt-4 gap-4 float-left w-3/5">
-          <p className="text-xl text-white float-left p-4">Test words and extra stuff</p>
+        <div className="bg-black h-40 mt-4 gap-4 place-self-start max-w-80">
+          <p className="text-xl text-white float-left p-4">Test words and extra stuff 2</p>
         </div>
-        <div className="bg-black h-40 mt-4 gap-4 float-right max-w-24">
-          <p className="text-xl text-white float-right p-4">Test words and extra stuff</p>
+        <div className="bg-black h-40 mt-4 gap-4 place-self-end max-w-96">
+          <p className="text-xl text-white float-left p-4">Test words and extra stuff 3</p>
         </div>
       </div>
     </main>
