@@ -89,8 +89,7 @@ export default function Page() {
         alt="Mayflower Gulch 2024"
         /> */}
         </div>
-      </div>
-      <div className="mx-auto max-w-xl">
+        <div className="mx-auto max-w-xl">
       <div className="my-8">
         <div className="mb-2 h-2 w-full rounded-full bg-stone-200"></div>
         <div className="mb-2 h-2 w-full rounded-full bg-stone-200"></div>
@@ -136,6 +135,7 @@ export default function Page() {
         <div className="mb-2 h-2 w-full rounded-full bg-stone-200"></div>
       </div>
     </div>
+      </div>
     </main>
   );
 }
