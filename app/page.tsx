@@ -80,8 +80,8 @@ export default function Page() {
             >
               <span>About me</span> <ArrowRightIcon className="w-5 md:w-6" />
             </Link>
-          </div>
         </div>
+      </div>
         {/* <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
           Add Hero Images Here
           <Image 
@@ -91,15 +91,14 @@ export default function Page() {
         alt="Mayflower Gulch 2024"
         />
         </div> */}
-        <div className="col-start-3 col-span-3">
-          <div className="my-8">
-            <div className="mb-2 h-2 rounded-full bg-stone-200"></div>
-            <div className="mb-2 h-2 rounded-full bg-stone-200"></div>
-            <div className="mb-2 h-2 rounded-full bg-stone-200"></div>
-            <div className="mb-2 h-2 w-full rounded-full bg-stone-200"></div>
-            <div className="mb-2 h-2 w-full rounded-full bg-stone-200"></div>
-            <div className="mb-2 h-2 w-full rounded-full bg-stone-200"></div>
-          </div>
+      <div className="col-start-3 col-span-3">
+        <div className="my-8">
+          <div className="mb-2 h-2 rounded-full bg-stone-200"></div>
+          <div className="mb-2 h-2 rounded-full bg-stone-200"></div>
+          <div className="mb-2 h-2 rounded-full bg-stone-200"></div>
+          <div className="mb-2 h-2 w-full rounded-full bg-stone-200"></div>
+          <div className="mb-2 h-2 w-full rounded-full bg-stone-200"></div>
+          <div className="mb-2 h-2 w-full rounded-full bg-stone-200"></div>
         </div>
       </div>
     </main>
