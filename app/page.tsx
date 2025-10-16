@@ -82,8 +82,11 @@ export default function Page() {
             </Link>
         </div>
         <div className="place-self-end gap-4 rounded-lg bg-gray-100/80 px-6 py-10 md:w-3/5 md:px-20">
-            <p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
+            <p className={`${lusitana.className} float-right text-xl text-gray-800 md:text-3xl md:leading-normal`}>
               <strong>Map!</strong>
+            </p>
+            <p className={`${lusitana.className} float-right text-l text-gray-800 md:text-3xl md:leading-normal`}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
             <Link
               href="/dashboard/map"
@@ -96,6 +99,9 @@ export default function Page() {
             <p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
               <strong>Here is where I blog my trips.</strong>
             </p>
+            <p className={`${lusitana.className} text-l text-gray-800 md:text-3xl md:leading-normal`}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
             <Link
               href="/dashboard/trips"
               className="flex items-center gap-5 w-fit self-start rounded-lg bg-[#2F5D50] px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
@@ -104,8 +110,11 @@ export default function Page() {
             </Link>
         </div>
         <div className="place-self-end gap-4 rounded-lg bg-gray-100/80 px-6 py-10 md:w-3/5 md:px-20">
-            <p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
+            <p className={`${lusitana.className} text-xl float-right text-gray-800 md:text-3xl md:leading-normal`}>
               <strong>Gear!</strong>
+            </p>
+            <p className={`${lusitana.className} float-right text-l text-gray-800 md:text-3xl md:leading-normal`}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
             <Link
               href="/dashboard"
