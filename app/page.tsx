@@ -68,9 +68,8 @@ export default function Page() {
         {<AcmeLogo />}
         </div>
       </div>
-      <div className="mt-4 grid-cols-5 bg-cover bg-no-repeat bg-center bg-clip-border p-5 bg-[url(/mayflower_gulch.jpg)] gap-4 md:flex-row">
-        <div className="col-start-01 col-span-3 flex-col justify-center gap-6 rounded-lg bg-gray-50 px-6 py-10 md:w-2/5 md:px-20">
-          <div className="relative w-0 h-0 border-l-[15px] border-r-[15px] border-b-[26px] border-l-transparent border-r-transparent border-b-black"/>
+      <div className="flex-col mt-4 bg-cover bg-no-repeat bg-center bg-clip-border p-5 bg-[url(/mayflower_gulch.jpg)] gap-4 md:flex-col">
+        <div className="flex-col justify-center gap-6 rounded-lg bg-gray-50 px-6 py-10 md:w-2/5 md:px-20">
             <p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
               <strong>Welcome to my website.</strong> Here I will document and catalog my backcountry ski and snowboard trips.
             </p>
@@ -81,8 +80,8 @@ export default function Page() {
               <span>About me</span> <ArrowRightIcon className="w-5 md:w-6" />
             </Link>
         </div>
-        <div className="col-start-3 col-span-3">
-          <div className="my-8">
+        <div className="flex-col float right">
+          <div className="">
             <div className="mb-2 h-2 rounded-full bg-stone-200"></div>
             <div className="mb-2 h-2 rounded-full bg-stone-200"></div>
             <div className="mb-2 h-2 rounded-full bg-stone-200"></div>
