@@ -70,7 +70,7 @@ export default function Page() {
       </div>
       
       <div className="flex flex-col mt-4 bg-cover bg-no-repeat bg-center bg-clip-border p-5 bg-[url(/mayflower_gulch.jpg)] gap-4 md:flex-col">
-        <div className="float-left gap-4 rounded-lg bg-gray-500/50 px-6 py-10 md:w-3/5 md:px-20">
+        <div className="float-left gap-4 rounded-lg bg-gray-50/45 px-6 py-10 md:w-3/5 md:px-20">
             <p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
               <strong>Welcome to my website.</strong> Here I will document and catalog my backcountry ski and snowboard trips.
             </p>
@@ -81,7 +81,7 @@ export default function Page() {
               <span>About me!</span>
             </Link>
         </div>
-        <div className="place-self-end gap-4 rounded-lg bg-gray-50/10 px-6 py-10 md:w-3/5 md:px-20">
+        <div className="place-self-end gap-4 rounded-lg bg-gray-50/40 px-6 py-10 md:w-3/5 md:px-20">
             <p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
               <strong>Map!</strong>
             </p>
@@ -92,7 +92,7 @@ export default function Page() {
               <span>Check out the map!</span>
             </Link>
         </div>
-        <div className="place-self-start gap-4 rounded-lg bg-gray-500/100 px-6 py-10 md:w-3/5 md:px-20">
+        <div className="place-self-start gap-4 rounded-lg bg-gray-50/35 px-6 py-10 md:w-3/5 md:px-20">
             <p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
               <strong>Here is where I blog my trips.</strong>
             </p>
@@ -103,7 +103,7 @@ export default function Page() {
               <span>Trips!</span>
             </Link>
         </div>
-        <div className="place-self-end gap-4 rounded-lg bg-gray-50 px-6 py-10 md:w-3/5 md:px-20">
+        <div className="place-self-end gap-4 rounded-lg bg-gray-50/30 px-6 py-10 md:w-3/5 md:px-20">
             <p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
               <strong>Gear!</strong>
             </p>
