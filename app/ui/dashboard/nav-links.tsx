@@ -28,8 +28,12 @@ const links = [
 
     subNav: [
       {
-        name: 'Mayflower Gulch Nov. 30 2025',
-        href: '/dashboard/trips/113025',
+        name: 'Mayflower Gulch Nov 30 2024',
+        href: '/dashboard/trips/113024',
+      }
+      {
+        name: 'Loveland Pass May 3 2025',
+        href: '/dashboard/trips/050325',
       }
     ]
   },
