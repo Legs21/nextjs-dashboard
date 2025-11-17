@@ -75,9 +75,14 @@ export default function NavLinks() {
               )}>Trips</Link>
         <ul>
           <li>
-            <Link href="./trips/113025" className={clsx(
+            <Link href="./113024" className={clsx(
                 'flex h-[48px] grow items-center justify-center gap-2 rounded-md bg-gray-50 p-3 text-sm font-medium hover:bg-sky-100 hover:text-blue-600 md:flex-none md:justify-start md:p-2 md:px-3'
-              )}>Mayflower Gulch Nov 30 25</Link>
+              )}>Mayflower Gulch Nov 30 24</Link>
+          </li>
+          <li>
+            <Link href="./050325" className={clsx(
+                'flex h-[48px] grow items-center justify-center gap-2 rounded-md bg-gray-50 p-3 text-sm font-medium hover:bg-sky-100 hover:text-blue-600 md:flex-none md:justify-start md:p-2 md:px-3'
+              )}>Loveland Pass May 3 25</Link>
           </li>
         </ul>
       </li>
