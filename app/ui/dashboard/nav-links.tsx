@@ -84,7 +84,22 @@ export default function NavLinks() {
               )}>Mayflower Gulch Nov 30 24</Link>
           </li>
           <li>
-            <Link href="./050325" className={clsx(
+            <Link href="/dashboard/trips/010225" className={clsx(
+                'flex h-[48px] grow items-center justify-center gap-2 rounded-md bg-gray-50 p-3 text-sm font-medium hover:bg-sky-100 hover:text-blue-600 md:flex-none md:justify-start md:p-2 md:px-3'
+              )}>Avy Course Day 1 Jan 2 25</Link>
+          </li>
+          <li>
+            <Link href="/dashboard/trips/010325" className={clsx(
+                'flex h-[48px] grow items-center justify-center gap-2 rounded-md bg-gray-50 p-3 text-sm font-medium hover:bg-sky-100 hover:text-blue-600 md:flex-none md:justify-start md:p-2 md:px-3'
+              )}>Avy Course Day 2 Jan 3 25</Link>
+          </li>
+          <li>
+            <Link href="/dashboard/trips/041925" className={clsx(
+                'flex h-[48px] grow items-center justify-center gap-2 rounded-md bg-gray-50 p-3 text-sm font-medium hover:bg-sky-100 hover:text-blue-600 md:flex-none md:justify-start md:p-2 md:px-3'
+              )}>Watrous Gulch Apr 19 25</Link>
+          </li>
+          <li>
+            <Link href="/dashboard/trips/050325" className={clsx(
                 'flex h-[48px] grow items-center justify-center gap-2 rounded-md bg-gray-50 p-3 text-sm font-medium hover:bg-sky-100 hover:text-blue-600 md:flex-none md:justify-start md:p-2 md:px-3'
               )}>Loveland Pass May 3 25</Link>
           </li>
