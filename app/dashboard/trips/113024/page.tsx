@@ -11,7 +11,7 @@ export default function Page() {
           <li className='p-3'>Crew: Peter and myself</li>
           <li className='p-3'>Equipment
             <ul>
-              <li className='p-3'>Skis/Board: Arbor Coda</li>
+              <li className='p-3'>Skis/Board: Arbor Veda Splitboard</li>
               <li className='p-3'>Backpack: BCA Pro 32L</li>
             </ul>
           </li>
